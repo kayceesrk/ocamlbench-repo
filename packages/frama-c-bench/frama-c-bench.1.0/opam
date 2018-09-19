@@ -7,5 +7,6 @@ depends: ["ocaml" "frama-c"]
 substs: [
   "frama-c-deflate.bench"
   "frama-c-idct.bench"
+  "frama-c-monocypher.bench"
 ]
 flags: light-uninstall

@@ -1,9 +1,17 @@
 share : [
   "frama-c-deflate.bench"
   "frama-c-idct.bench"
+  "frama-c-monocypher.bench"
   "t.c"
   "idct/idct.c" {"idct/idct.c"}
   "idct/ieee_1180_1990.c" {"idct/ieee_1180_1990.c"}
   "math.c"
   "math.h"
+  "monocypher/monocypher.c" {"monocypher/monocypher.c"}
+  "monocypher/monocypher.h" {"monocypher/monocypher.h"}
+  "monocypher/sha512.c" {"monocypher/sha512.c"}
+  "monocypher/sha512.h" {"monocypher/sha512.h"}
+  "monocypher/tests/test.c" {"monocypher/tests/test.c"}
+  "monocypher/tests/utils.h" {"monocypher/tests/utils.h"}
+  "monocypher/tests/vectors.h" {"monocypher/tests/vectors.h"}
 ]
