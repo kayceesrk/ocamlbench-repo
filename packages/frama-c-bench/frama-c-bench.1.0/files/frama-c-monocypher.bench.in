@@ -1,0 +1,5 @@
+((name frama-c-monocypher)
+ (descr "frama-c (eva plug-in) on monocypher 2.0.5")
+ (cmd
+  (%{bin}%/frama-c %{frama-c-bench:share}%/monocypher/monocypher.c %{frama-c-bench:share}%/monocypher/sha512.c %{frama-c-bench:share}%/monocypher/tests/test.c -val -journal-disable -no-val-show-progress -value-msg-key=-initial-state,-final-states -value-warn-key=-alarm -value-verbose 0))
+ (speed Slow))
